@@ -22,6 +22,7 @@ class Stack:
         return popdata
     def peek(self):
         if self.base != None:
+            print(self.base.data)
             return self.base.data
         else:
             print("Nothing in the stack\n")
@@ -41,7 +42,7 @@ stack.push(1)
 stack.push(3)
 stack.printStack()
 stack.pop()
-
+stack.peek()
 
             
     
