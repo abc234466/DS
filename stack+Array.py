@@ -1,4 +1,4 @@
-from sys import maxsize
+# from sys import maxsize
 
 class Stack:
     def __init__(self):
@@ -21,6 +21,7 @@ class Stack:
         print(f"{popdata} popped from stack")
         print(f"Stack = {self.stack}\n")
 
+# TEDT
 stack = Stack()
 stack.pop()
 stack.push(5)
