@@ -25,6 +25,7 @@ class LinkedList:
         return fstNode
         '''
         floor
+        
         if leftNode == None:
             return None
         fstNode = leftNode
@@ -34,6 +35,7 @@ class LinkedList:
             if sndNode != rightNode:
                 fstNode = fstNode.next
                 sndNode = sndNode.next
+        return fstNode
         '''
     def binarysearch(self, value):
         leftNode = self.head
@@ -52,7 +54,7 @@ class LinkedList:
         return None
         
             
-
+# TEST
 if __name__=='__main__':
     linkedList = LinkedList()
     second = Node(3)
