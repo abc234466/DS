@@ -1,3 +1,9 @@
+'''
+Best Case: O(nlogn) 
+Average Case: O(nlogn)
+Wrost Case: O(nlogn)
+'''
+
 def heapify(lst, lstLength, nodeIndex):
     largest = nodeIndex
     leftIndex = largest * 2 + 1
